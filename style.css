@@ -1,0 +1,21 @@
+body {
+  background-image: url(./img/fighters.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-action {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-image: url(./img/stars.png);
+  background-position: center;
+  background-size: auto;
+}
+
+.card-content {
+
+}

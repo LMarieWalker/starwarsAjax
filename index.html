@@ -3,42 +3,184 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-  <script src="./app.js"></script>
-  <style media="screen">
-    .row{
-      display:flex;
-    }
-    .movie{
-      flex:1;
-      padding:10px;
-    }
-  </style>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
+
+    <script src="./app.js"></script>
+
+    <style media="screen">
+      .row{
+        display:flex;
+      }
+      .movie{
+        flex:1;
+        padding:10px;
+      }
+    </style>
   </head>
+
   <body>
-    <div class="row">
-      <div class="movie">
-      </div>
-      <div class="movie">
-      </div>
-      <div class="movie">
-      </div>
+    <div class="">
+
     </div>
     <div class="row">
-      <div class="movie">
+      <div class="col s12 m6">
+        <div class="card black">
+          <div class="card-content yellow-text movie">
+            <span class="card-title"></span>
+            <p class='cardPara'></p>
+          </div>
+          <div class="card-action">
+            <a class="aOne waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal1">People</a>
+            <a class="aTwo waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal2">Planets</a>
+          </div>
+
+        </div>
       </div>
-      <div class="movie">
+
+      <div class="col s12 m6">
+        <div class="card black">
+          <div class="card-content yellow-text movie">
+            <span class="card-title"></span>
+            <p class='cardPara'></p>
+          </div>
+          <div class="card-action">
+            <a class="aOne waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal1">People</a>
+            <a class="aTwo waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal2">Planets</a>
+          </div>
+        </div>
       </div>
-      <div class="movie">
+
+      <div class="col s12 m6">
+        <div class="card black">
+          <div class="card-content yellow-text movie">
+            <span class="card-title"></span>
+            <p class='cardPara'></p>
+          </div>
+          <div class="card-action">
+            <a class="aOne waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal1">People</a>
+            <a class="aTwo waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal2">Planets</a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <h1>People:</h1>
-    <div id="people">
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card black">
+          <div class="card-content yellow-text movie">
+            <span class="card-title"></span>
+            <p class='cardPara'></p>
+          </div>
+          <div class="card-action">
+            <a class="aOne waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal1">People</a>
+            <a class="aTwo waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal2">Planets</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="col s12 m6">
+        <div class="card black">
+          <div class="card-content yellow-text movie">
+            <span class="card-title"></span>
+            <p class='cardPara'></p>
+          </div>
+          <div class="card-action">
+            <a class="aOne waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal1">People</a>
+            <a class="aTwo waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal2">Planets</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m6">
+        <div class="card black">
+          <div class="card-content yellow-text movie">
+            <span class="card-title"></span>
+            <p class='cardPara'></p>
+          </div>
+          <div class="card-action">
+            <a class="aOne waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal1">People</a>
+            <a class="aTwo waves-effect waves-light grey lighten-1 black-text btn modal-trigger" href="#modal2">Planets</a>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- <h1>People:</h1>
+    <div id="people"></div> -->
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Characters</h4>
+        <p id="people">A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+    <!-- <h1>Planets:</h1>
+    <div id='planets'></div> -->
+    <!-- Modal Structure -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4>Planets</h4>
+        <p id="planets">A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="yellow-text">EVENTS</h5>
+            <div class="col s12 m7">
+              <!-- <p class="header">Star Wars Night With The Anaheim Angels</p> -->
+              <div class="card horizontal">
+                <div class="card-image">
+                  <img src="./img/events-starwars.jpg">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h5 class="yellow-text">Star Wars Night With The Anaheim Angels</h5>
+                    <p class="yellow-text">The Force is with Star Wars Day at the ballpark, featuring special giveaways, events, costumed characters (come dressed as your favorite), and more.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="http://www.starwars.com/events/sports">15 SEP 2017</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="yellow-text">Great Resources</h5>
+            <ul>
+              <li><a class="yellow-text text-lighten-3" href="http://www.starwars.com/">Official Star Wars website</a></li>
+              <li><a class="yellow-text text-lighten-3" href="http://www.imdb.com/star-wars/?ref_=nv_sr_1">Guide to the Star Wars Universe</a></li>
+              <li><a class="yellow-text text-lighten-3" href="https://www.ea.com/games/starwars/battlefront/battlefront-2">Star Wars Battlefront II</a></li>
+              <li><a class="yellow-text text-lighten-3" href="https://www.lego.com/en-us/starwars">Star Wars: LEGO World</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container yellow-text text-lighten-4">
+        © 2017 Marie Walker
+        <a class="yellow-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
